@@ -182,20 +182,6 @@
                                             </switch>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ESx-5C-a1O">
-                                        <rect key="frame" x="0.0" y="153" width="335" height="31"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Es2-IN-rxX">
-                                                <rect key="frame" x="0.0" y="0.0" width="286" height="31"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hba-y8-uty">
-                                                <rect key="frame" x="286" y="0.0" width="51" height="31"/>
-                                            </switch>
-                                        </subviews>
-                                    </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ng8-lR-7So">
                                         <rect key="frame" x="0.0" y="204" width="335" height="34"/>
                                         <state key="normal" title="Button"/>
@@ -210,11 +196,6 @@
                                         </buttonConfiguration>
                                     </button>
                                 </subviews>
-                                <variation key="default">
-                                    <mask key="subviews">
-                                        <exclude reference="ESx-5C-a1O"/>
-                                    </mask>
-                                </variation>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="G0e-Cm-iD9">
                                 <rect key="frame" x="20" y="284.5" width="335" height="128"/>
@@ -268,12 +249,6 @@
                             <constraint firstItem="R0k-zx-5y5" firstAttribute="centerY" secondItem="tnW-X5-UYi" secondAttribute="centerY" constant="20" id="iON-gb-0H7"/>
                             <constraint firstItem="XYM-lB-6Mx" firstAttribute="trailing" secondItem="G0e-Cm-iD9" secondAttribute="trailing" constant="20" id="mBk-vw-xXT"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="9s0-D0-wj4"/>
-                                <exclude reference="G0e-Cm-iD9"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Вопрос №" largeTitleDisplayMode="always" id="h0k-uG-4rO">
                         <barButtonItem key="backBarButtonItem" title="Назад" id="Egx-ZF-zOz"/>

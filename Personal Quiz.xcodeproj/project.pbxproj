@@ -14,6 +14,9 @@
 		DDC64E5427BE5DBE00B66377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC64E5327BE5DBE00B66377 /* Assets.xcassets */; };
 		DDC64E5727BE5DBE00B66377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC64E5527BE5DBE00B66377 /* LaunchScreen.storyboard */; };
 		DDC64E5F27BE7CDA00B66377 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC64E5E27BE7CDA00B66377 /* Question.swift */; };
+		DDC64E6627BE801F00B66377 /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC64E6527BE801F00B66377 /* ResponseType.swift */; };
+		DDC64E6827BE82B100B66377 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC64E6727BE82B100B66377 /* Answer.swift */; };
+		DDC64E6A27BE840F00B66377 /* AnimalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC64E6927BE840F00B66377 /* AnimalType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		DDC64E5627BE5DBE00B66377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDC64E5827BE5DBE00B66377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDC64E5E27BE7CDA00B66377 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		DDC64E6527BE801F00B66377 /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
+		DDC64E6727BE82B100B66377 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		DDC64E6927BE840F00B66377 /* AnimalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 			isa = PBXGroup;
 			children = (
 				DDC64E5E27BE7CDA00B66377 /* Question.swift */,
+				DDC64E6527BE801F00B66377 /* ResponseType.swift */,
+				DDC64E6727BE82B100B66377 /* Answer.swift */,
+				DDC64E6927BE840F00B66377 /* AnimalType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,7 +193,10 @@
 				DDC64E4F27BE5DBD00B66377 /* ViewController.swift in Sources */,
 				DDC64E5F27BE7CDA00B66377 /* Question.swift in Sources */,
 				DDC64E4B27BE5DBD00B66377 /* AppDelegate.swift in Sources */,
+				DDC64E6827BE82B100B66377 /* Answer.swift in Sources */,
+				DDC64E6627BE801F00B66377 /* ResponseType.swift in Sources */,
 				DDC64E4D27BE5DBD00B66377 /* SceneDelegate.swift in Sources */,
+				DDC64E6A27BE840F00B66377 /* AnimalType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
