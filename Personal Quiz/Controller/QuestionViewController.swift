@@ -120,7 +120,7 @@ class QuestionViewController: UIViewController {
     }
     
     private func updateMultipleStackView(using answers: [Answer]) {
-        // Sgow single stack view
+        // Show single stack view
         multipleStackView.isHidden = false
         
         for (lable, answer) in zip(multipleLabels, answers) {
