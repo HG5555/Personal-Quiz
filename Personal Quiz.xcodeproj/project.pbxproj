@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DDC64E4B27BE5DBD00B66377 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC64E4A27BE5DBD00B66377 /* AppDelegate.swift */; };
 		DDC64E4D27BE5DBD00B66377 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC64E4C27BE5DBD00B66377 /* SceneDelegate.swift */; };
-		DDC64E4F27BE5DBD00B66377 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC64E4E27BE5DBD00B66377 /* ViewController.swift */; };
+		DDC64E4F27BE5DBD00B66377 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC64E4E27BE5DBD00B66377 /* IntroductionViewController.swift */; };
 		DDC64E5227BE5DBD00B66377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC64E5027BE5DBD00B66377 /* Main.storyboard */; };
 		DDC64E5427BE5DBE00B66377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC64E5327BE5DBE00B66377 /* Assets.xcassets */; };
 		DDC64E5727BE5DBE00B66377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC64E5527BE5DBE00B66377 /* LaunchScreen.storyboard */; };
@@ -17,13 +17,15 @@
 		DDC64E6627BE801F00B66377 /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC64E6527BE801F00B66377 /* ResponseType.swift */; };
 		DDC64E6827BE82B100B66377 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC64E6727BE82B100B66377 /* Answer.swift */; };
 		DDC64E6A27BE840F00B66377 /* AnimalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC64E6927BE840F00B66377 /* AnimalType.swift */; };
+		DDC64E8C27BFAC8800B66377 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC64E8B27BFAC8800B66377 /* QuestionViewController.swift */; };
+		DDC64E8E27BFACF300B66377 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC64E8D27BFACF300B66377 /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DDC64E4727BE5DBD00B66377 /* Personal Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC64E4A27BE5DBD00B66377 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDC64E4C27BE5DBD00B66377 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DDC64E4E27BE5DBD00B66377 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDC64E4E27BE5DBD00B66377 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		DDC64E5127BE5DBD00B66377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDC64E5327BE5DBE00B66377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDC64E5627BE5DBE00B66377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +34,8 @@
 		DDC64E6527BE801F00B66377 /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
 		DDC64E6727BE82B100B66377 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 		DDC64E6927BE840F00B66377 /* AnimalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalType.swift; sourceTree = "<group>"; };
+		DDC64E8B27BFAC8800B66377 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		DDC64E8D27BFACF300B66377 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		DDC64E4927BE5DBD00B66377 /* Personal Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				DDC64E5827BE5DBE00B66377 /* Info.plist */,
 				DDC64E6327BE7D5C00B66377 /* Supporting Files */,
 				DDC64E6427BE7E5C00B66377 /* Resourses */,
 				DDC64E6127BE7D0A00B66377 /* Model */,
@@ -76,7 +81,9 @@
 		DDC64E6027BE7CF900B66377 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DDC64E4E27BE5DBD00B66377 /* ViewController.swift */,
+				DDC64E4E27BE5DBD00B66377 /* IntroductionViewController.swift */,
+				DDC64E8D27BFACF300B66377 /* ResultsViewController.swift */,
+				DDC64E8B27BFAC8800B66377 /* QuestionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -104,7 +111,6 @@
 		DDC64E6327BE7D5C00B66377 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DDC64E5827BE5DBE00B66377 /* Info.plist */,
 				DDC64E4C27BE5DBD00B66377 /* SceneDelegate.swift */,
 				DDC64E4A27BE5DBD00B66377 /* AppDelegate.swift */,
 			);
@@ -190,12 +196,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC64E4F27BE5DBD00B66377 /* ViewController.swift in Sources */,
+				DDC64E4F27BE5DBD00B66377 /* IntroductionViewController.swift in Sources */,
 				DDC64E5F27BE7CDA00B66377 /* Question.swift in Sources */,
 				DDC64E4B27BE5DBD00B66377 /* AppDelegate.swift in Sources */,
 				DDC64E6827BE82B100B66377 /* Answer.swift in Sources */,
 				DDC64E6627BE801F00B66377 /* ResponseType.swift in Sources */,
+				DDC64E8E27BFACF300B66377 /* ResultsViewController.swift in Sources */,
 				DDC64E4D27BE5DBD00B66377 /* SceneDelegate.swift in Sources */,
+				DDC64E8C27BFAC8800B66377 /* QuestionViewController.swift in Sources */,
 				DDC64E6A27BE840F00B66377 /* AnimalType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

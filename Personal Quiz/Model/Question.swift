@@ -13,7 +13,6 @@ struct Question {
     
 }
 
-
 extension Question {
     static func getQuestion() -> [Question] {
         return [Question(text: "Какую пищу вы предпочитаете?",
